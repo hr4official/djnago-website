@@ -1,6 +1,6 @@
 from django.urls import path
-from .import views
-
+from app.views import index_view
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
-    path('',views.index,name="index"),
+    path('',index_view),
 ]
