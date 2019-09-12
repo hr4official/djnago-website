@@ -1,11 +1,27 @@
-<!DOCTYPE html>
-<html>
-<body>
+{%load static from staticfiles %}
+<h1>My First Web Page</h1>
 
-<p>I am normal</p>
-<p style="color:red;">I am red</p>
-<p style="color:blue;">I am blue</p>
-<p style="font-size:50px;">I am big</p>
+<h2>Headings Are Great Fun</h2>
+<p>This is my first <b>paragraph</b> in my new <i>webpage</i>. This is going to be great. I am so excited I can hardly contain <b>myself</b>. Don't you just love paragraphs? I find them very useful. </p>
 
-</body>
-</html>
+<h2>Web Pages Are Exciting Too</h2>
+<p>Yes, that's right - web pages can be a lot of fun. Learning how to create web pages is easy and <b>entertaining</b>. This is my second <i>paragraph</i>. I hope you like it.</p>
+
+<a href="http://www.google.com">Link to Google</a>
+
+<ul>
+<li>Apples</li>
+<li>Bananas</li>
+<li>Pears</li>
+<li>Oranges</li>
+<li>Grapes</li>
+</ul>
+
+<blockquote>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
+ - Saint Exupery</blockquote>
+
+<hr />
+
+<img src="{% static 'static/myimage.jpg' %}">
+<div>This is a DIV container</div>
+
